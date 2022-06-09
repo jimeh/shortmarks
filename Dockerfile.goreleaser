@@ -1,0 +1,6 @@
+FROM scratch
+COPY ./shortmarks /
+ENV PORT 8080
+EXPOSE 8080
+WORKDIR /
+CMD ["/shortmarks"]
